@@ -139,3 +139,79 @@ nav li a{
     gap: 300px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
+.container{
+    display: flex;
+    gap: 24px;
+}
+.main-text5{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main-text6{
+    color: #0B0223;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.extra-text{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.cards{
+    text-align: center;
+}
+.main-img3{
+    position: relative;
+}
+.mover{
+    position: absolute;
+    left: 500px;
+    top: 800px;
+    right: 500px;
+}
+.down-section{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+.extra-text2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+footer ul{
+    display: flex;
+}
+footer li a{
+    text-decoration: none;
+}
+footer li{
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0B0223;
+}
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+}
